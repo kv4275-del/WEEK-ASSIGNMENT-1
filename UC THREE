@@ -1,0 +1,67 @@
+/**
+ * OOPSBannerApp
+ *
+ * UC3 - Refactored banner using String.join()
+ * Improves memory efficiency by avoiding string concatenation with +
+ *
+ * @author YourName
+ * @version 1.2
+ */
+public class OOPSBannerApp {
+
+    /**
+     * Application entry point
+     * @param args Command-line arguments
+     */
+    public static void main(String[] args) {
+
+        System.out.println(String.join("  ",
+                " ***** ",
+                " ***** ",
+                " ***** ",
+                " ***** "
+        ));
+
+        System.out.println(String.join("  ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *"
+        ));
+
+        System.out.println(String.join("  ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*      "
+        ));
+
+        System.out.println(String.join("  ",
+                "*     *",
+                "*     *",
+                "*     *",
+                " ***** "
+        ));
+
+        System.out.println(String.join("  ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "      *"
+        ));
+
+        System.out.println(String.join("  ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *"
+        ));
+
+        System.out.println(String.join("  ",
+                " ***** ",
+                " ***** ",
+                " ***** ",
+                " ***** "
+        ));
+    }
+}
